@@ -3211,7 +3211,7 @@ main .support .form_container > .row .support_form textarea::-webkit-input-place
 }
 @media screen and (max-width: 400px) {
   .header_mobile {
-    padding: 20px 10px;
+    padding: 20px 15px;
   }
   .header_mobile .mobile_top_logo {
     width: 190px;

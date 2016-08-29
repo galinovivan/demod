@@ -1,8 +1,8 @@
 
 function initMap() {
-    var latitude = 59.979999,
-        longitude = 30.281496,
-        map_zoom = 10;
+    var latitude = 59.959688,
+        longitude = 30.281606,
+        map_zoom = 13;
     var style = [{
         featureType: 'all',
         stylers: [
