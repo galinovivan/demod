@@ -1,4 +1,4 @@
-var deadline = '2016-09-01';
+var deadline = '2016-09-29';
 
 function getTimeDelt(endTime) {
     var t = Date.parse(endTime) - Date.parse(new Date());
