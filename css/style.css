@@ -2607,7 +2607,7 @@ main .support .form_container > .row .support_form textarea::-webkit-input-place
   }
   .header_mobile .row {
     position: relative;
-    padding: 5px 0;
+    padding: 5px 10px;
   }
   .header_mobile .mobile_top_logo {
     padding: 5px 0;

@@ -2,6 +2,8 @@
 function initMap() {
     var latitude = 59.959688,
         longitude = 30.281606,
+        latitudeMap = 59.95238,
+        lonqitudeMap = 30.219209,
         map_zoom = 13;
     var style = [{
         featureType: 'all',
@@ -11,7 +13,7 @@ function initMap() {
         skylers: [
             {saturation: 1}]}];
     var map_options = {
-        center: new google.maps.LatLng(latitude, longitude),
+        center: new google.maps.LatLng(latitudeMap, lonqitudeMap),
         zoom: map_zoom,
         panControl: false,
         zoomControl: false,
