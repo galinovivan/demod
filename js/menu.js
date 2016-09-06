@@ -26,10 +26,7 @@ $(document).ready(function() {
                 initCollapse();
                 event.preventDefault();
             })
-        } else {
-
-            return;
-        }
+        } 
    };
     initMenu($('.progress_hide'), $('#hideArrowPrice'), false, 'hide_section');
     initMenu($('.product_form'), $('#hideArrowProduct'), false, 'hide_section');

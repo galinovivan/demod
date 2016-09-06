@@ -3095,7 +3095,7 @@ main .support .form_container > .row .support_form textarea::-webkit-input-place
     top: 0;
     left: 0;
     z-index: 1000;
-    overflow: scroll;
+    overflow-y: scroll;
     text-transform: uppercase;
     font-size: 20px;
     opacity: 0;
