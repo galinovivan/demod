@@ -584,6 +584,12 @@ pre {
   main .catalog .goods .tab_item {
     width: 50% !important;
   }
+  main .catalog .goods .tab_item .title {
+    padding: 0;
+  }
+  main .catalog .goods .tab_item .price {
+    padding-left: 0;
+  }
   main .catalog .goods .sort_mobile {
     text-align: center;
   }
@@ -637,6 +643,15 @@ pre {
   main .catalog .catalog_more a p {
     float: none !important;
     padding: 0;
+    margin: 0;
+  }
+  main .catalog .sort_row {
+    background: transparent;
+    border: none;
+    height: 75px;
+    padding: 25px 25px;
+  }
+  main .catalog .goods {
     margin: 0;
   }
 }
