@@ -1,4 +1,7 @@
-var deadline = '2016-09-29';
+var deadline = '2016-10-29';
+initTimer('second', 'minute', 'hour', 'day', deadline);
+initTimer('mob_second', 'mob_minute', 'mob_hour', 'mob_day', deadline);
+
 
 function getTimeDelt(endTime) {
     var t = Date.parse(endTime) - Date.parse(new Date());
@@ -33,7 +36,6 @@ function initTimer(id_sec, id_min, id_hour, id_day, endTime) {
     updateTimer();
     var timeInterval = setInterval(updateTimer, 1000);
 }
-initTimer('second', 'minute', 'hour', 'day', deadline);
-initTimer('mob_second', 'mob_minute', 'mob_hour', 'mob_day', deadline);
+
 
 
